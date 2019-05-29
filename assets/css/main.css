@@ -1806,10 +1806,14 @@ input, select, textarea {
 	ul {
 		list-style: disc;
 		padding-left: 1em;
+		font-size: .8em;
 	}
 
 		ul li {
 			padding-left: 0.5em;
+			text-decoration: none;
+			list-style: none;
+			line-height: 1.2em;
 		}
 
 	ol {

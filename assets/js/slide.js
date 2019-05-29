@@ -2,6 +2,7 @@ var slideIndex = 1;
 showDivs(slideIndex,'one');
 showDivs(slideIndex, 'two');
 showDivs(slideIndex, 'three');
+showDivs(slideIndex, 'five');
 
 function plusDivs(n, idx) {
     showDivs(slideIndex += n,idx);
