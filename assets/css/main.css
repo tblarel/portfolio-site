@@ -1975,7 +1975,7 @@ input, select, textarea {
 	.download > i, .download > .button-text {
 		margin: 0 .4em 0 .2em;
 		font-weight: 400;
-		letter-spacing: .1em;
+		letter-spacing: .02em;		
 		display: -webkit-inline-box;
 	}
 
@@ -2363,10 +2363,17 @@ input, select, textarea {
 
 .mySlides {
 	width: 60%;
-	height: 311px;
+	max-width: 500px;
+	height: auto;
 	margin: .5em auto 0 auto;
 	border-radius: 3px;
 	box-shadow: 3px 4px 10px 1px #24202045;
+}
+
+.mySlides > img {
+	width: 100%;
+	max-width: 500px;
+	height: auto;
 }
 
 .centered{
@@ -2387,9 +2394,9 @@ input, select, textarea {
 	transition: .2s ease !important;
 }
 
-.social-link > a:hover{
+/* .social-link > a:hover{
 	transform: scale(1.02);
-}
+} */
 
 .social-link:hover{
 	color: #E27689;
@@ -2765,7 +2772,7 @@ input, select, textarea {
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 1rem 1.5rem;
-    width: 50rem;
+    width: 70vw;
     border-radius: 0.5rem;
 }
 .close-button {
@@ -2788,10 +2795,38 @@ input, select, textarea {
 }
 
 .modal-text {
-	font-size: 0.8em;
-    line-height: 1.8em;
+	font-size: 0.7em;
+    line-height: 1.2em;
 	font-weight: 400;
 	padding: 0 3vw;
+}
+
+.modal-text strong  {
+	font-weight: 800;
+}
+
+.show-more{
+
+	opacity: 0;
+	height: 0;
+	visibility: hidden;
+	display: none;
+}
+
+.display-text{
+	opacity: 1;
+	height: 100%;
+	visibility: visible;
+	display: block;
+	transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+	font-size: 0.7em;
+    line-height: 1.2em;
+	font-weight: 400;
+	padding: 0 3vw;
+}
+
+.show-more strong{
+	font-weight: 800;
 }
 
 

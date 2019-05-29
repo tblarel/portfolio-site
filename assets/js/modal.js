@@ -1,22 +1,18 @@
 var modal = document.querySelectorAll(".modal");
 var trigger = document.querySelectorAll(".trigger");
 var closeButton = document.querySelector(".close-button");
-debugger
 
 function toggleModal(id) {
-    debugger
     var modal = document.querySelector(".modal" + "."+id)
     modal.classList.toggle("show-modal");
 }
 
 function handleTrigger() {
-    debugger
     let id = event.currentTarget.classList[2];
     toggleModal(id);    
 }
 
 function windowOnClick(event) {
-    debugger
     if (event.target.parentElement.parentElement.classList[0] === modal[1].classList[0]) {
         toggleModal(event.target.parentElement.parentElement.classList[1]);
     } else if (event.target.classList[0] == modal[1].classList[0]) {
