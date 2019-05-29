@@ -20,7 +20,7 @@
 						<div id="logo">
 							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
 							<h1 id="title">Tristan Blarel</h1>
-							<p>Software Developer & Designer</p>
+							<p>Full Stack Developer & Designer</p>
 						</div>
 
 					<!-- Nav -->
@@ -83,8 +83,8 @@
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="./subpage/mybnb.html" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+									<article class="item trigger one">
+										<a class="image fit"><img src="images/pic02.jpg" alt="" /></a>
 										<header>
 											<h3>MyBnB | Full Stack & Design</h3>
 										</header>
@@ -94,8 +94,41 @@
 											<i class="fab fa-js"></i>
 										</footer>
 									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+												<div class="modal one">
+													<div class="modal-content">
+														<span class="close-button">×</span>
+														<div class="top">
+															<div class="left">
+																<img class="mySlides one" src="./subpage/mybnb/1.png" alt="img1">
+																<img class="mySlides one" src="./subpage/mybnb/2.png" alt="img2">
+																<img class="mySlides one" src="./subpage/mybnb/3.png" alt="img3">
+																<img class="mySlides one" src="./subpage/mybnb/4.png" alt="img4">
+																<button class="slideButton" onclick="plusDivs(-1,'one')">&#10094;</button>
+																<button class="slideButton" onclick="plusDivs(+1,'one')">&#10095;</button>
+															</div>
+															<div class="right">
+																<p class="modal-text">MyBnB is a clone of Airbnb built using a <strong>Ruby on Rails</strong> backend, <strong>React.js &
+																		Redux</strong> frontend, a <strong>PostgreSQL</strong> database and <strong>Active
+																		Storage</strong> with <strong>Amazon S3</strong>.
+																	<br><br>
+																	The project was planned, designed, and developed within a 10-day timeframe, although improvements and
+																	additional features will
+																	continue to be fleshed out.</p>
+															</div>
+														
+															<div class="row links">
+																<li class="social-link">
+																	<a href="https://mybnbrails.herokuapp.com" class="icon fa-globe"><br>Live Site</a>
+																</li>
+																<li class="social-link">
+																	<a href="https://github.com/tblarel/mybnb/" class="icon fa-github"><br>Github</a>
+																</li>
+															</div>
+														</div>
+													</div>
+												</div>
+									<article class="item trigger two">
+										<a class="image fit"><img src="images/pic03.jpg" alt="" /></a>
 										<header>
 											<h3>Sonify | Full Stack</h3>
 										</header>
@@ -106,6 +139,42 @@
 											<i class="fab fa-css3-alt"></i>
 										</footer>
 									</article>
+												<div class="modal two">
+													<div class="modal-content">
+														<span class="close-button">×</span>
+														<div class="top">
+															<div class="left">
+																<img class="mySlides two" src="./subpage/mybnb/1.png" alt="img1">
+																<img class="mySlides two" src="./subpage/mybnb/2.png" alt="img2">
+																<img class="mySlides two" src="./subpage/mybnb/3.png" alt="img3">
+																<img class="mySlides two" src="./subpage/mybnb/4.png" alt="img4">
+																<button class="slideButton" onclick="plusDivs(-1,'two')">&#10094;</button>
+																<button class="slideButton" onclick="plusDivs(+1,'two')">&#10095;</button>
+															</div>
+															<div class="right">
+																<p class="modal-text">Sonify was developed as a Capstone Senior Design Project by a team of three engineering students at the University of
+																Miami. The Full Stack Web Application provides recommendations based off of the acoustic properties of a given track. By interfacing with Spotify's API, 
+																User's can search for recommendations of any track in Spotify's catalog. The track's audio file is then analyzed on the Back End where 12 features such as tempo and chord progressions are extracted.
+																We applied machine learning to provide recommendations, feeding our feature vectror into a Weighted KNN algorithm and using a Wave-Hedges distance metric to recommend the 10 nearest neighbors.
+																By making AJAX calls to Spotify's API and fetching album art and audio previews, the results are then presented on the Front End to the user.
+
+									
+
+																</p>
+															</div>
+												
+															<div class="row links">
+																<li class="social-link">
+																	<a href="https://mybnbrails.herokuapp.com" class="icon fa-globe"><br>Live Site</a>
+																</li>
+																<li class="social-link">
+																	<a href="https://github.com/tblarel/mybnb/" class="icon fa-github"><br>Github</a>
+																</li>
+															</div>
+														</div>
+													</div>
+												</div>
+
 								</div>
 								<div class="col-4 col-12-mobile">
 									<article class="item">
@@ -182,7 +251,7 @@
 								</div>
 								<div class="col-5" style="text-align: center">
 									<strong>App Academy</strong><br>
-									Full Stack Bootcamp<br> March 2019 - May 2018
+									Full Stack Bootcamp<br> March 2019 - May 2019
 								</div>
 							</div>
 							<br>
@@ -211,6 +280,7 @@
 
 							<header>
 								<h2>Get in touch!</h2>
+								<br>
 							</header>
 
 
@@ -246,6 +316,8 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/slide.js"></script>
+			<script src="assets/js/modal.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
