@@ -162,6 +162,7 @@ input, select, textarea {
 	}
 
 	a {
+		cursor: pointer;
 		text-decoration: none;
 		color: inherit;
 		border-bottom: solid 1px #E27689;
@@ -2312,6 +2313,8 @@ input, select, textarea {
 	min-height: 100vh;
 }
 
+
+
 #subpage .back {
 	padding: 1em 0 0 0;
 	margin: 0 auto 0 5%;
@@ -2328,7 +2331,7 @@ input, select, textarea {
 
 #subpage .top{
 	width: 100%;
-	margin: 0 auto;
+	margin: 2vw auto 0 auto;
 	text-align: center;
 	display: flex;
 	justify-content: center;
@@ -2358,6 +2361,12 @@ input, select, textarea {
 
 #subpage .left{
 	max-width: 48%;
+}
+
+.left{
+	display: flex;
+	justify-content: center;
+    align-items: center;
 }
 
 #subpage .right{
@@ -2390,10 +2399,10 @@ input, select, textarea {
 }
 
 .mySlides {
-	width: 60%;
+	width: 50%;
 	max-width: 500px;
 	height: auto;
-	margin: .5em auto 0 auto;
+	/* margin: .5em 15% 0 26.5%; */
 	border-radius: 3px;
 	box-shadow: 3px 4px 10px 1px #24202045;
 }
@@ -2404,6 +2413,8 @@ input, select, textarea {
 
 .mySlides > img {
 	width: 100%;
+	display: block;
+    margin: 0 auto;
 	max-width: 500px;
 	height: auto;
 }
@@ -2478,6 +2489,24 @@ input, select, textarea {
 
 .slideButton:active{
 	background-color: rgb(95, 208, 245);
+}
+
+.left-button {
+	position: absolute;
+    left: 20%;
+}
+
+.right-button {
+	position: absolute;
+    right: 20%;
+}
+
+.left-subpage-button {
+	margin-right: 1vw;
+}
+
+.right-subpage-button {
+	margin-left: 1vw;
 }
 
 /* Wide */
@@ -2863,6 +2892,12 @@ input, select, textarea {
 	font-weight: 800;
 }
 
+.circle{
+	width: 10em;
+	height: 10em;
+	border-radius: 20em;
+	box-shadow: 3px 4px 10px 1px #24202045;
+}
 
 
 
@@ -2908,6 +2943,8 @@ input, select, textarea {
 				}
 		
 		/* About */
+
+		
 
 		/* Footer */
 
