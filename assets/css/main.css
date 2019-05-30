@@ -164,7 +164,7 @@ input, select, textarea {
 	a {
 		text-decoration: none;
 		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+		border-bottom: solid 1px #E27689;
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2362,7 +2362,31 @@ input, select, textarea {
 
 #subpage .right{
 	max-width: 48%;
-	padding: 0 5%;
+	padding: 0 ;
+}
+
+.right ul{
+	margin-bottom:0;
+	padding-bottom: 0;
+}
+
+.subpage-title{
+	font-weight: 800;
+	font-size: 1.5em;
+}
+
+.subpage-text{
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.3em;
+	padding: 0 1em;
+}
+
+
+/* Slides */
+
+.large.mySlides{
+	width: 100%;
 }
 
 .mySlides {
@@ -2372,6 +2396,10 @@ input, select, textarea {
 	margin: .5em auto 0 auto;
 	border-radius: 3px;
 	box-shadow: 3px 4px 10px 1px #24202045;
+}
+.mySlides p, .mySlides a {
+	margin-bottom: 0;
+	font-size: .7em;
 }
 
 .mySlides > img {
@@ -2396,6 +2424,7 @@ input, select, textarea {
 
 .social-link > a {
 	transition: .2s ease !important;
+	font-size:.8em;
 }
 
 /* .social-link > a:hover{
@@ -2799,10 +2828,11 @@ input, select, textarea {
 }
 
 .modal-text {
+	margin-bottom: 0.5em;
 	font-size: 0.7em;
     line-height: 1.2em;
 	font-weight: 400;
-	padding: 0 3vw;
+	padding: 0 2vw;
 }
 
 .modal-text strong  {
