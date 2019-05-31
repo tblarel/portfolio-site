@@ -2074,6 +2074,8 @@ input, select, textarea {
 
 /* Header */
 
+
+
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2306,6 +2308,7 @@ input, select, textarea {
 			}
 
 /* SubPage */
+
 
 #subpage {
 	margin: 0 auto;
@@ -2598,6 +2601,7 @@ input, select, textarea {
 				width: 20%;
 			}
 
+			
 			#logo .image {
 				position: relative;
 				margin: 0 0 0.5em 0;
@@ -2639,6 +2643,8 @@ input, select, textarea {
 		display: none;
 	}
 
+	
+
 	@media screen and (max-width: 960px) {
 
 		/* Basic */
@@ -2673,6 +2679,8 @@ input, select, textarea {
 			}
 
 		/* Header */
+
+		
 
 			#header {
 				-moz-backface-visibility: hidden;
@@ -2931,6 +2939,19 @@ input, select, textarea {
 			.container {
 				padding: 0 15px 0 15px;
 			}
+
+			header > p { 
+				margin: 1em 2em;
+			}
+
+			.mySlides{
+				margin: .5em 15% 0 26.5%;
+			}	
+				
+			.right-button {
+				right: 20%;
+			}
+
 
 		/* List */
 
