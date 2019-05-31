@@ -2391,6 +2391,16 @@ input, select, textarea {
 	padding: 0 1em;
 }
 
+.subpage-img{
+	width: 100%;
+	height: auto;
+}
+
+.fixed {
+	height: 350px;
+	width: auto;
+}
+
 
 /* Slides */
 
